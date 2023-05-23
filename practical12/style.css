@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Fruktur&family=Gabriela&family=Inter:wght@100&family=Roboto+Slab:wght@300;400&family=Tillana&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../asset/b.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box1{
+    height:  60% ;
+    width: 20%;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+.box1 h1{
+    font-size: 15px;
+    font-family: 'Ysabeau', sans-serif;
+    color: rgb(120, 177, 40);
+
+}
+.box2{
+    height:  60% ;
+    width: 20%;
+    background-color: beige;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+
+
+}
+.box3{
+    height:  60% ;
+    width: 20%;
+    background-color: rgb(241, 178, 122);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+    padding: 10px;
+    font-family: 'Gabriela', serif;
+    margin-top: 10px;
+    border: 5px;
+    border-color: rgba(146, 222, 111, 0.692);
+    border-style: groove;
+}
+.proceed{
+    padding: 4PX;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(215, 165, 99);
+    
+}
+.boxsol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.proceed2{
+   position:absolute;
+   top: 15px;
+}
+.back{
+    position: absolute;
+    bottom: 15px;
+}
+.change{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fto1{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fto2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(237, 148, 230);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.fto3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 230, 127);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main">
+        <div class="box1">
+            <h1> Fill out the following details</h1>
+            <form>
+               <input type="text" placeholder="Name" required>
+               <input type="number" placeholder="Phone No" required>
+               <input type="email" placeholder="Email" required>
+              </form>
+            <button class="proceed" >
+                NEXT
+            </button>
+        </div>
+        <div class="box2" >
+            <button class="proceed2">previous</button>
+            <h1>occassion</h1>
+            
+            <form >
+                <div class="boxsol" >
+                <input type="radio" id="html" name="b" value="birthday"  class="d" checked>
+                <label for="html">birthday</label><br>
+                <input type="radio" id="css" name="b" value="anniversary" class="d">
+                <label for="css">anniversary</label><br>
+                <input type="radio" id="javascript" name="b" value="social party" class="d">
+                <label for="javascript">social party</label>
+            </div>
+            </form>
+            <div class="change" >
+            <div class="fto1" id="fto1"></div>
+            <div class="fto2" id="fto2" ></div>
+            <div class="fto3" id="fto3"></div>
+        </div>
+        
+        
+            <button class="back">proceed</button>
+
+            
+        </div>
+        <div class="box3" >
+            <button class="back3"> back</button>
+            <button class="confirm" >confirm</button>
+        </div>
+        
+    </section>
+    <script src="main.js" ></script>
+</body>
+</html>

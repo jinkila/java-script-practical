@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../asset/b.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.form-cover{
+    height: 70vh;
+    width: 50vh;
+    background-color: blanchedalmond;;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.form-cover2{
+    height: 70vh;
+    width: 50vh;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-right: 20px;
+    display: none;
+    
+    
+}.form-cover3{
+     height: 70vh;
+    width: 50vh;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.form-cov-butt{
+height: 10vh;
+width: 150px;
+margin-right: 10px;
+background-color: rgb(120, 177, 40);
+
+
+}
+.heading{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(241, 178, 122);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttom{
+    height: 10vh;
+    width: 100%;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-top: 400px;
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #0069d9;
+}

@@ -1,0 +1,26 @@
+.bg-primary{
+    background-color: bisque !important;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    background-color: bisque;
+}
+.carousel-item{
+    height: 700px;
+   
+    
+}
+.c-img{
+    height: 100%;
+    width: 100%;
+}
+.card-img-top-leb{
+    height: 200px;
+}
+
+.modal-content {
+    height: 90vh !important;
+    width: 700px;
+  
+}

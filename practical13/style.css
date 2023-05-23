@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    position: relative;
+}  
+
+.wrap {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.west{
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+.south{
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+.north{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+.east{
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+.box1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../practical13/ASSE/West\ And\ South\ Sikkim\ Tour.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.box2 {
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../practical13/ASSE/south.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.box3 {
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../practical13/ASSE/north.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.box4{
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../practical13/ASSE/Gangtok\ Sightseeing\ Ropeway\ _\ Timings\,\ Booking\,\ Price\ &\ Gallery\ -\ Dril.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
